@@ -1,6 +1,11 @@
 -- Can I see a list of all teams by year and number of wins,
 -- starting with the fewest wins?
 
+SELECT year, name, wins 
+FROM teams
+ORDER BY wins ASC;
+
+
 -- Expected result: 2955 rows, ending with
 --
 -- | 2018 | Boston Red Sox                    | 108  |
